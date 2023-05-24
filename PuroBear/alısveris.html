@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUROBEAR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <style>
+        *{box-sizing: border-box;}
+        body{
+            margin: 0px;
+            background-color: #F5EDDC;
+        }
+        .main-header{
+            height: 100px;
+            background-color: black;
+            padding: 16px;
+        }
+        .main-header__logo{
+            text-decoration: none;
+            color: #fff;
+            padding-left: 10px;
+            font-size: 30px;
+            border-left: 3px solid #fff;
+            border-bottom: 3px solid #fff;
+        }
+        .main-header-nav{
+            display: inline-block;
+            text-align: right;
+            width: calc(100% - 210px);
+        }
+        .main-header-nav__items{
+            list-style: none;
+        }
+        .main-header-nav__item{
+            display: inline-block;
+        }
+        .main-header-nav__item a{
+            text-decoration: none;
+            color: black;
+            padding: 4px 20px 4px 20px;
+            margin-left: 30px;
+            border-radius: 4px;
+            background-color: #fff;
+        }
+        .main-header-nav__item a:hover{
+            font-size: 24px;
+            background-color: black;
+            color: #fff;
+            border: 2px solid #fff;
+            transition: .5s;
+            border-radius: 5px;
+        }
+        .main-header__logo:hover{
+            font-size: 36px;
+            transition: .5s;
+        }
+        #hr1{
+            margin-top: 12px;
+        }
+        #showcase{
+            color: #fff;
+        }
+        .col{
+            color: black;
+            background-color: #fff;
+            display: inline-block;
+            width: 30%;
+            padding: 16px;
+            margin: 50px 8px 8px 8px ;
+            text-align: center;
+            border-radius: 5px;
+            border: 2px solid black;
+        }
+        .col:hover{
+            font-size:20px;
+            background-color: #fff;
+            color: black;
+            transition: .5s;
+            border: 2px solid black;
+        }
+        .col h3{
+            padding: 5px;
+            text-decoration: none;
+            font-size:30px;
+            border-bottom: 1px solid black;
+            color: black;
+        }
+        .col i{
+            margin: 0px;
+            padding: 0px;
+        }
+        marquee{
+            color: #fff;
+        }
+        .row-2{margin: 0px;}
+        .col-2 li{
+            list-style-type: none;
+        }
+        .row-2 ul{overflow: hidden;}
+        img{
+            float: left;
+            margin-right: 17px;
+        }
+        .popüler{text-align: center;}
+        .popüler h3{
+            font-size: 40px;
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+        .popüler h3:hover{
+            font-size: 45px;
+            transition: .3s;
+        }
+        .popüler p{
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <a href="" class="main-header__logo">PUROBEAR</a>
+        <nav class="main-header-nav">
+            <ul class="main-header-nav__items">
+                <li class="main-header-nav__item">
+                    <a href="">Sweats</a>
+                </li>
+                <li class="main-header-nav__item">
+                    <a href="">Coats</a>
+                </li>
+                <li class="main-header-nav__item">
+                    <a href="">Boots</a>
+                </li>
+            </ul>
+        </nav>
+        <marquee loop="2" direction="right" scrolldelay="40">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Vitae dolores suscipit reiciendis distinctio quos hic. Nemo quo in libero.
+            Recusandae ex perspiciatis in velit veniam blanditiis eum sed incidunt, laudantium culpa,
+            quaerat beatae cum neque earum impedit quidem sint excepturi veritatis sequi ab laboriosam
+            deserunt est? Ab iusto doloribus porro?</marquee>
+    </header>
+    <section id="showcase">
+        <div class="row">
+            <div class="col">
+                <i class="fa-solid fa-cloud fa-3x"></i>
+                <h3>Memnuniyet</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, corrupti.</p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-comment fa-3x"></i>
+                <h3>Forum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, corrupti.</p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-right-to-bracket fa-3x"></i>
+                <h3>Giriş</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, corrupti.</p>
+            </div>
+        </div>
+    </section>
+    <section class="ürünler">
+        <div class="popüler">
+            <h3>En Popüler</h3>
+            <hr>
+            <ins><p>Haftanın öne çıkanları</p></ins>
+        </div>
+        <div class="row2">
+            <div class="col-2">
+                <ul>
+                    <li id="ürün1"><img src="Ürünler/PhotoRoom_20221102_110039.png" alt="" width="30%" height="33.3%"></li>
+                    <li id="ürün2"><img src="Ürünler/PhotoRoom_20221102_105524.png" alt="" width="30%" height="33.3%"></li>
+                    <li id="ürün3"><img src="Ürünler/PhotoRoom_20221102_105913.png" alt="" width="30%" height="33.3%"></li>
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+
+    
+</body>
+</html>
